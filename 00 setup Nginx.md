@@ -234,9 +234,34 @@ http {
 </br>
 </br>
 
+# Lets find the `Nginx` `default` `html` page.
+
+</br>
+
 <img src="public/img/Screenshot (1254).png">
+
+```bash
+conf.d/            # Additional config files
+sites-available/   # Virtual host configs (inactive)
+sites-enabled/     # Symlinks to active sites
+nginx.conf         # Main configuration
+mime.types         # Mime type definitions
+```
 
 <p align="center">
   <img src="public/img/Screenshot (1255).png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
   <img src="public/img/Screenshot (1256).png" alt="Image 2" width="45%" style="margin-right: 10px;"/>
 </p>
+
+---
+
+</br>
+
+<p align="center">
+  <img src="public/img/Screenshot (1257).png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
+  <img src="public/img/Screenshot (1258).png" alt="Image 2" width="45%" style="margin-right: 10px;"/>
+</p>
+
+---
+
+# Now create you own configaration.
