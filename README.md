@@ -1,4 +1,16 @@
-**1-page Nginx + Networking Troubleshooting Cheat Sheet** — concise, command-focused, and optimized for quick recall in interviews.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ce44013f-89cc-4e4f-b932-d6fb8b773a4c" alt="Image 1" width="44%" style="margin-right: 10px;"/>
+  <img src="https://github.com/user-attachments/assets/08216f7b-8e6a-499f-a1ea-2cb34020d17d" alt="Image 2" width="45%" style="margin-right: 10px;"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/415c03f4-1519-4366-9bb7-ee29bdc29a13" alt="Image 1" width="45%" style="margin-right: 10px;"/>
+  <img src="https://github.com/user-attachments/assets/4156fdbc-9bf9-4c2d-875a-69e1c8c00028" alt="Image 2" width="45%" style="margin-right: 10px;"/>
+</p>
+
+---
+
+**Single-page Nginx + Networking Troubleshooting Cheat Sheet** — concise, command-focused, and optimized for quick recall in interviews.
 
 ---
 
@@ -149,3 +161,4 @@ sudo nginx -t && sudo systemctl reload nginx
 * “I verify DNS mapping, then look at `/var/log/nginx/error.log` and proxy upstreams.”
 * “I use `tcpdump` to confirm whether packets hit the server or get dropped.”
 * “TLS issues? I run `curl -vk https://domain` to debug handshake and cert.”
+
