@@ -1,45 +1,43 @@
 **WSL2 + Nginx + VS Code**.
 
-```marmaid
+```mermaid
 graph TD
 
-A[Windows 11/10 OS] --> B[VS Code with Remote - WSL Extension]
-A --> C[Browser (Edge / Chrome / Firefox)]
+A[Windows 11 or 10 OS] --> B[VS Code with Remote-WSL Extension];
+A --> C[Browser: Edge, Chrome, or Firefox];
 
-B --> D[WSL2: Kali Linux Environment]
-D --> E[/var/www/html]
-E --> F[Nginx Web Server :80]
-F --> G[Localhost / IP Access (http://localhost or http://172.x.x.x)]
+B --> D[WSL2: Kali Linux Environment];
+D --> E[/var/www/html Directory];
+E --> F[Nginx Web Server on Port 80];
+F --> G[Localhost or WSL IP (http://localhost)];
 
-B -.->|Edits files directly| E
-C -->|Sends HTTP Requests| F
-F -->|Serves HTML/CSS/JS Response| C
-D -->|Runs system services (nginx, ssh, ufw)| F
+B -.-> |Edits Files| E;
+C --> |HTTP Request| F;
+F --> |HTML/CSS/JS Response| C;
+D --> |Runs Services (nginx, ssh, ufw)| F;
 
-subgraph Windows Layer
-A
-B
-C
+subgraph Windows_Layer
+A;
+B;
+C;
 end
 
-subgraph Linux Layer (WSL2)
-D
-E
-F
+subgraph Linux_Layer_WSL2
+D;
+E;
+F;
 end
 
-style A fill:#9ec8ff,stroke:#0066cc,stroke-width:2px,color:#003366
-style B fill:#b5f5dc,stroke:#008066,stroke-width:2px,color:#004d33
-style C fill:#ffd9b3,stroke:#e68a00,stroke-width:2px,color:#663300
-style D fill:#f0e68c,stroke:#b3a100,stroke-width:2px,color:#4d4d00
-style E fill:#ffe6ff,stroke:#993399,stroke-width:2px,color:#4d004d
-style F fill:#ffcccc,stroke:#cc0000,stroke-width:2px,color:#660000
-style G fill:#d9d9d9,stroke:#595959,stroke-width:2px,color:#1a1a1a
+style A fill:#9ec8ff,stroke:#0066cc,stroke-width:2px,color:#003366;
+style B fill:#b5f5dc,stroke:#008066,stroke-width:2px,color:#004d33;
+style C fill:#ffd9b3,stroke:#e68a00,stroke-width:2px,color:#663300;
+style D fill:#f0e68c,stroke:#b3a100,stroke-width:2px,color:#4d4d00;
+style E fill:#ffe6ff,stroke:#993399,stroke-width:2px,color:#4d004d;
+style F fill:#ffcccc,stroke:#cc0000,stroke-width:2px,color:#660000;
+style G fill:#d9d9d9,stroke:#595959,stroke-width:2px,color:#1a1a1a;
 ```
 
 You’ll be able to **edit files in VS Code on Windows**, but they’ll actually live and run inside your **Kali Linux web root (`/var/www/html`)** — so Nginx serves them instantly.
-
-Let’s go step by step 👇
 
 ---
 

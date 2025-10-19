@@ -8,7 +8,6 @@
 </br>
 </br>
 
-
 </br>
 </br>
 
@@ -91,6 +90,7 @@ sudo ufw allow 'Nginx HTTPS'    # Port 443
 sudo ufw reload
 sudo ufw status verbose
 ```
+
 <img src="public/img/Screenshot (1244).png">
 
 ---
@@ -234,7 +234,7 @@ http {
 </br>
 </br>
 
-# Lets find the `Nginx` `default` `html` page.
+# Lets find the `Nginx` `default` `html` page
 
 </br>
 
@@ -264,10 +264,11 @@ mime.types         # Mime type definitions
 
 ---
 
-# Now create you own configaration.
-## Remove the old one.
+# Now create you own configaration
 
-#### Test and reload:
+## Remove the old one
+
+#### Test and reload
 
 ```bash
 sudo nginx -t
@@ -277,6 +278,7 @@ sudo nginx -s reload
 <img src="public/img/Screenshot (1259).png">
 
 ### Use `nano` or [`Vim`](https://youtu.be/sUIoV48rxVE)
+
 <p align="center">
   <img src="public/img/Screenshot (1260).png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
   [<img src="public/img/Screenshot (1263).png" alt="Image 2" width="45%" style="margin-right: 10px;"/>](https://youtu.be/sUIoV48rxVE)
@@ -284,7 +286,8 @@ sudo nginx -s reload
 
 </br>
 
-### create out own configaration.
+### create out own configaration
+
 <img src="public/img/Screenshot (1265).png">
 
 ```bash
@@ -304,10 +307,12 @@ location /akashdip {
 }
 ```
 
-### Then go to the perticuller location what I maintain in the Nginx file & create a html file.
+### Then go to the perticuller location what I maintain in the Nginx file & create a html file
+
 <img src="public/img/Screenshot (1267).png">
 
-### Then check the configaration again and Test in browser.
+### Then check the configaration again and Test in browser
+
 <p align="center">
   <img src="public/img/Screenshot (1269).png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
   <img src="public/img/Screenshot (1270).png" alt="Image 2" width="45%" style="margin-right: 10px;"/>
@@ -318,7 +323,7 @@ location /akashdip {
 </br>
 </br>
 
-# Send file from Windows to WSL using `FileZilla`.
+# Send file from Windows to WSL using `FileZilla`
 
 <img src="public/img/Screenshot (1273).png">
 
@@ -332,5 +337,7 @@ location /akashdip {
 </br>
 
 - #### [Using FileZilla - good to use with Cloud (MCP).](docs/01%20ssh%20file%20transfar.md)
+
 - #### [WithOut FileZilla - diractly map the WSL folder.](docs/02%20map%20wsl%20in%20windows.md)
+
 - #### [Edit HTML files directly in VS Code on Windows.](docs/03%20edit%20files%20directly%20in%20VS%20Code%20on%20Windows.md)

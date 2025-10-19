@@ -1,5 +1,7 @@
 You’ve got HTML files on your **Windows machine**, and you want to upload them to your **WSL2 Kali Linux’s Nginx web root** (`/var/www/html`) using **FileZilla**.
 
+<img src="../public/img/Screenshot (1273).png">
+
 ---
 
 ## 🧠 First — Understand the problem
