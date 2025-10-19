@@ -287,7 +287,24 @@ sudo nginx -s reload
 ### create out own configaration.
 <img src="public/img/Screenshot (1265).png">
 
-### creatThen go to the perticuller location what I maintain & create a html file.
+```bash
+server {
+
+listen 80;
+
+location / {
+return 400;
+}
+
+location /akashdip {
+        root /var/www/html;
+        index index.html;
+
+}
+}
+```
+
+### Then go to the perticuller location what I maintain in the Nginx file & create a html file.
 <img src="public/img/Screenshot (1267).png">
 
 ### Then check the configaration again and Test in browser.
@@ -295,3 +312,25 @@ sudo nginx -s reload
   <img src="public/img/Screenshot (1269).png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
   <img src="public/img/Screenshot (1270).png" alt="Image 2" width="45%" style="margin-right: 10px;"/>
 </p>
+
+---
+
+</br>
+</br>
+
+# Send file from Windows to WSL using `FileZilla`.
+
+<img src="public/img/Screenshot (1273).png">
+
+> FileZilla connects over SFTP (SSH). </br>
+> But by default, WSL2 doesn’t enable an SSH server (sshd) — so FileZilla can’t connect until you enable it.
+
+- Install & enable SSH server inside WSL2.
+- Find your WSL2 IP.
+- Use that IP + username + password in FileZilla.
+
+</br>
+
+- #### [Using FileZilla - good to use with Cloud (MCP).](docs/01%20ssh%20file%20transfar.md)
+- #### [WithOut FileZilla - diractly map the WSL folder.](docs/02%20map%20wsl%20in%20windows.md)
+- #### [Edit HTML files directly in VS Code on Windows.](docs/03%20edit%20files%20directly%20in%20VS%20Code%20on%20Windows.md)
