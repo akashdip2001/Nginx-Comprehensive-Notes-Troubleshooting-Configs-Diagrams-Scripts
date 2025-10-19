@@ -2,7 +2,7 @@
 
 </br>
 
-<p align="center"><img src="public/public-img/nginx.jpg"></p>
+[<p align="center"><img src="public/public-img/nginx.jpg"></p>](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04)
 <h3 align="center">Install process <a herf="https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04">link</a> in Ubuntu.<h3>
 
 </br>
@@ -265,3 +265,33 @@ mime.types         # Mime type definitions
 ---
 
 # Now create you own configaration.
+## Remove the old one.
+
+#### Test and reload:
+
+```bash
+sudo nginx -t
+sudo nginx -s reload
+```
+
+<img src="public/img/Screenshot (1259).png">
+
+### Use `nano` or [`Vim`](https://youtu.be/sUIoV48rxVE)
+<p align="center">
+  <img src="public/img/Screenshot (1260).png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
+  [<img src="public/img/Screenshot (1263).png" alt="Image 2" width="45%" style="margin-right: 10px;"/>](https://youtu.be/sUIoV48rxVE)
+</p>
+
+</br>
+
+### create out own configaration.
+<img src="public/img/Screenshot (1265).png">
+
+### creatThen go to the perticuller location what I maintain & create a html file.
+<img src="public/img/Screenshot (1267).png">
+
+### Then check the configaration again and Test in browser.
+<p align="center">
+  <img src="public/img/Screenshot (1269).png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
+  <img src="public/img/Screenshot (1270).png" alt="Image 2" width="45%" style="margin-right: 10px;"/>
+</p>
