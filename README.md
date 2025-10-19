@@ -1,3 +1,11 @@
+![photo_2025-10-19_19-33-51](https://github.com/user-attachments/assets/e3a83868-e83c-4e29-84ca-edbd69daa176)
+
+> apple clint evolution in TCS. TCS ILP ending date `2 Nov 2025`. But the `delivery manager` call for apple project on `15 Oct 2025` before I meet with RMG. Interview on Network + Cloud + Security + Linux. </br>
+
+> TCS offer letter recive `14 Jul 2025`. & Joinning letter come `07 Aug 2025` for The Joinning Date `21 Aug 2025`.
+
+</br>
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ce44013f-89cc-4e4f-b932-d6fb8b773a4c" alt="Image 1" width="44%" style="margin-right: 10px;"/>
   <img src="https://github.com/user-attachments/assets/08216f7b-8e6a-499f-a1ea-2cb34020d17d" alt="Image 2" width="45%" style="margin-right: 10px;"/>
@@ -161,5 +169,6 @@ sudo nginx -t && sudo systemctl reload nginx
 * “I verify DNS mapping, then look at `/var/log/nginx/error.log` and proxy upstreams.”
 * “I use `tcpdump` to confirm whether packets hit the server or get dropped.”
 * “TLS issues? I run `curl -vk https://domain` to debug handshake and cert.”
+
 
 
