@@ -44,6 +44,8 @@ sudo service ssh status
 Active: active (running)
 ```
 
+<img width="100%" alt="Screenshot (1275)" src="https://github.com/user-attachments/assets/e01319c7-245d-4e31-8116-1cef4f2e3b6b" />
+
 ---
 
 ## 🌐 Step 2 — Find your WSL2 IP address
@@ -62,6 +64,8 @@ Example output:
 
 Remember this IP — you’ll use it in FileZilla.
 
+<img width="100%" alt="Screenshot 2025-10-19 143210" src="https://github.com/user-attachments/assets/f7c6cd2c-353f-46b2-b4af-bf524f3551fb" />
+
 ---
 
 ## 🧩 Step 3 — Allow SSH through firewall (UFW)
@@ -77,6 +81,8 @@ You should see:
 ```
 22/tcp ALLOW Anywhere
 ```
+
+<img width="100%" alt="Screenshot (1276)" src="https://github.com/user-attachments/assets/f64a57af-1c03-41cd-a38e-22821d32a554" />
 
 ---
 
@@ -96,6 +102,9 @@ You should see:
 | Password   | *(your Kali user password)*           |
 
 4. Click **Connect**
+
+<img width="100%" alt="Screenshot (1277)" src="https://github.com/user-attachments/assets/ca4624c7-495b-4520-804e-921bc19df69d" />
+
 
 ✅ You should now see your Kali filesystem (`/home/akash2001`, `/etc`, `/var`, etc.)
 
