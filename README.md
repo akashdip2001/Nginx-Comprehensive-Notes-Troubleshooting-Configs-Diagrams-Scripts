@@ -14,7 +14,7 @@
 
 ---
 
-# 🧠 NGINX + NETWORKING TROUBLESHOOTING CHEAT SHEET
+# 🧠 [NGINX](https://youtu.be/QkbPPAnC5dg) + NETWORKING TROUBLESHOOTING CHEAT SHEET
 
 ## 🔍 1. Quick Diagnosis Flow
 
@@ -161,4 +161,5 @@ sudo nginx -t && sudo systemctl reload nginx
 * “I verify DNS mapping, then look at `/var/log/nginx/error.log` and proxy upstreams.”
 * “I use `tcpdump` to confirm whether packets hit the server or get dropped.”
 * “TLS issues? I run `curl -vk https://domain` to debug handshake and cert.”
+
 
