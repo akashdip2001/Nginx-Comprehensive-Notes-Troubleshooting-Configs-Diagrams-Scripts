@@ -12,6 +12,9 @@ We’ll also cover **AWS security groups (if it’s cloud)** and how to **verify
 
 ---
 
+![IMG20251109151533](https://github.com/user-attachments/assets/a117b2f8-b64e-416c-86f7-041005072364)
+
+
 # 1️⃣ Check which firewall you have
 
 ```bash
@@ -188,3 +191,4 @@ nc -vz 192.168.1.10 8080
 > I confirm Nginx or the app is listening on 0.0.0.0 and not just localhost.”
 
 ---
+
